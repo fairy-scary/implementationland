@@ -32,6 +32,7 @@ class MaxHeap {
         let arr = this.array;
         let leftVal = arr[leftIdx];
         let rightVal = arr[rightIdx];
+        let val = arr(idx);
 
         if (leftVal === undefined) leftVal = -Infinity;
         if (rightVal === undefined) rightVal = -Infinity;
